@@ -23,18 +23,15 @@ while game_is_on:
     screen.update()
 
     cycle_count += 1
-    if cycle_count == 5:
+    if cycle_count == 4:
         new_car = Car()
         cars.append(new_car)
         cycle_count = 0
 
-
-
     for car in cars:
         car.move()
 
-
-    if player.ycor() > 280:
+    if player.ycor() > 380:
         player.increase_speed()
         player.starting_position()
 

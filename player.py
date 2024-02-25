@@ -16,7 +16,7 @@ class Player(Turtle):
         self.forward(10)
 
     def starting_position(self):
-        self.goto(0, -280)
+        self.goto(0, -380)
 
     def increase_speed(self):
         self.level += 1

@@ -13,7 +13,7 @@ class Car(Turtle):
         self.color(random.choice(colors))
         self.penup()
         self.setheading(90)
-        self.goto(290, random.randint(-250, 250))
+        self.goto(380, random.randint(-340, 340))
 
     def move(self):
         new_x = self.xcor() - 10
