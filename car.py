@@ -9,7 +9,7 @@ class Car(Turtle):
     def __init__(self):
         super().__init__()
         self.shape("square")
-        self.shapesize(1.5, 1)
+        self.shapesize(1.8, 1)
         self.color(random.choice(colors))
         self.penup()
         self.setheading(90)

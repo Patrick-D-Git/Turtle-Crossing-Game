@@ -9,7 +9,6 @@ class Player(Turtle):
         self.penup()
         self.setheading(90)
         self.starting_position()
-        self.level = 1
 
     def move_up(self):
 
@@ -18,7 +17,4 @@ class Player(Turtle):
     def starting_position(self):
         self.goto(0, -380)
 
-    def increase_speed(self):
-        self.level += 1
-        print(self.level)
 
